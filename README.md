@@ -1,7 +1,14 @@
-# STACK Token & Distribution Contracts
+# Treasury, STACK Token & Distribution Contracts
 
 ### Testing these contracts:
 To test these contracts, you can run unit or integration tests (yEarn integration). Rename the correct `migrations_XXX` folders to `migrations` and then run `truffle migrate`. They will need different ganache-cli instances, detailed more in their separate READMEs.
+
+TODO: work on `truffle test` implementation over `truffle migrate`. This is the proper way to run tests, but had some compatibility issues earlier.
+
+### VCTreasuryV1 (./Treasury/VCTreasuryV1.sol)
+
+This contract is the "product" of the first iteration of stacker.vc. This smart contract creates full functionality for a trust-minimized, decentralized VC investment fund. 
+
 
 ### STACK Token (./Token/STACKToken.sol)
 
