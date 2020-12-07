@@ -1,5 +1,18 @@
 # Treasury, STACK Token & Distribution Contracts
 
+### Installation requirements:
+In order to properly setup these project you'll need to install [Node.js](https://nodejs.org/en/download/) (min version 10.18), [truffle-cli](https://github.com/trufflesuite/truffle/) (min version 5.1.53) and [ganache-cli](https://github.com/trufflesuite/ganache-cli).
+Please make sure that when running `truffle version` you get at least the following output as minimal versions:
+
+```
+Truffle v5.1.53 (core: 5.1.53)
+Solidity v0.5.16 (solc-js)
+Node v10.18.0
+Web3.js v1.2.9
+```
+
+You should be now good to go.
+
 ### Testing these contracts:
 To test these contracts, you can run unit or integration tests (yEarn integration). Rename the correct `migrations_XXX` folders to `migrations` and then run `truffle migrate`. They will need different ganache-cli instances, detailed more in their separate READMEs.
 
